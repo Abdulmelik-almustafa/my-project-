@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'dijital';
+  src: url(Gjfont.ttf);
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #d3d2b5;
+}
+
+.countenair {
+  position: relative;
+  background-color: #000000;
+  height: 200px;
+  width: 150px;
+  padding: 20px 25px;
+  border-radius: 20px;
+  top: 30vh;
+  left: 15vh;
+}
+
+.Button {
+  font-size: 20px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-color: #AFB0AD;
+  border: none;
+  font-family: 'Cairo', sans-serif;
+  /*  box-shadow: 2px 2px 10px 5px #DDDDDD;*/
+  position: absolute;
+  left: 45px;
+  padding: 10px;
+  vertical-align: top;
+  margin: 4px 10px 4px 10px;
+ 
+}
+.Button:active {
+  box-shadow: 0 0 0 white;
+  margin: 7px 10px 2px 10px;
+}
+.number {
+  font-family: 'dijital';
+  background: #42CD2DFC;
+  height: 30px;
+  width: 80px;
+  padding: 9px 5px;
+  text-align: right;
+  border-radius: 7px;
+  margin: 20px auto;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  margin: 0px 20px;
+  border: none;
+  border-radius: 14px;
+  margin: 4px 10px 4px 10px;
+  padding: 10px;
+  vertical-align: top;
+  
+}
+.btn:active {
+  box-shadow: 0 0 0 white;
+  margin: 5px 10px 2px 10px;
+}
+#target {
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #161816;
+}
+
+
+.menu {
+  position: relative;
+  width: 190px;
+  transform: translate(90px, -320px);
+  
+}
+
+.menu ul {
+  list-style: none;
+  padding: 10px 10px 10px 20px;
+  position: absolute;
+  background-color: #1D8620B8;
+  border-radius: 4px;
+  visibility: hidden;
+  right: 40px;
+  width: 130px;
+  transition: margin-right .3s;
+  
+}
+li {
+  border-bottom: 2px solid #454945;
+  padding: 5px 0px;
+}
+.menu .visible {
+  visibility: visible;
+  margin-right: 30px;
+}
+.mybtn {
+  border-radius: 6px;
+  width:50px;
+  border: 1px solid black;
+  background-color: #787878;
+  color: black;
+  font-family: 'Cairo', sans-serif;
+}
+input {
+	border: none;
+	outline: none;
+	width: 32px;
+	height: 32px;
+}
+
+.div {
+  height: 50px;
+  width: 30px;
+  position: fixed;
+  margin:0px;
+  top:10px;
+  right:5px;
+}
+.div span {
+  position: absolute;
+  background-color: black;
+  height: 4px;
+  width: 100%;
+  display: inline-block;
+  left: 0;
+  transition:all 0.3s ease;
+  border-radius: 4px;
+}
+.div span:first-child {
+  top:0;
+}
+.div span:nth-child(2){
+  top:8px;
+}
+.div span:last-child {
+  top:16px;
+}
+.my span:first-child,
+.my span:last-child {
+  top:2px;
+}
+.my span:first-child {
+  transform:rotate(40deg);
+  background-color: red;
+}
+.my span:last-child {
+  transform:rotate(-40deg);
+  background-color: red;
+}
+.get {
+  opacity: 0;
+}
